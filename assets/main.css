@@ -78,8 +78,8 @@
   }
 
   .img-css {
-    width: 300px;
-    right: 30px;
+    width: 0;
+    right: 0;
     top: 40px;
     position: absolute;
     border-radius: 50px;
