@@ -111,11 +111,6 @@ li:hover, a:hover {
   opacity: 0.8;
 }
 
-
-.skill-session {
-   
-}
-
 .skill-logo {
   width: 100px;
   height: 100px;
@@ -181,6 +176,10 @@ svg {
 
 #git-img {
   margin-bottom: 3px;
+}
+
+#git-li {
+  margin-top: -2px;
 }
 
 
