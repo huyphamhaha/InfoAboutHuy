@@ -54,6 +54,10 @@
     display: flex;
     justify-content: center;
   }
+  
+  .img-css {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {
