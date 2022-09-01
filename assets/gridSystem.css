@@ -1,0 +1,131 @@
+@media (min-width: 1024px) and (max-width: 1239px) {
+    body > div {
+        margin: 5% auto 0;
+        width: 794px
+      }
+      .tab-item {
+        font-size: 20px;
+        text-align: center;
+        color: #c23564;
+        border-radius: 5px;
+        border-bottom: 5px solid transparent;
+        opacity: 0.6;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        padding: 16px 20px 11px 20px;
+      }
+
+      .study-sesstion {
+        right: 0;
+        display: block;
+      }
+    
+
+
+}
+
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+    body > div {
+        margin: 5% auto 0;
+        width: 644px
+      }
+
+        
+  .img-css {
+    width: 300px;
+    top: 0;
+    position: absolute;
+    border-radius: 50px;
+  }
+
+  .tab-item {
+    font-size: 20px;
+    text-align: center;
+    color: #c23564;
+    border-radius: 5px;
+    border-bottom: 5px solid transparent;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    padding: 16px 20px 11px 20px;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+    
+    .img-css {
+        display: none;
+      }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+}
+
+
+@media (min-width: 1024px) {
+    body > div {
+        margin: 5% auto 0;
+        width: 1024px
+      }
+
+      .tabs .line {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 6px;
+        border-radius: 15px;
+        background-color: #c23564;
+        transition: all 0.2s ease;
+        display: block !important;
+      }
+
+      .tab-item {
+        font-size: 20px;
+        text-align: center;
+        color: #c23564;
+        border-radius: 5px;
+        border-bottom: 5px solid transparent;
+        opacity: 0.6;
+        cursor: pointer;
+        transition: all 0.5s ease;
+        padding: 16px 20px 11px 20px;
+      }
+
+      .study-sesstion {
+        right: 0;
+        display: block;
+      }
+    
+      
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
