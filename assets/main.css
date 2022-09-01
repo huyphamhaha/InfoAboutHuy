@@ -78,9 +78,9 @@
   }
 
   .img-css {
-    width: 0;
+    width: 300px;
     right: 0;
-    top: 40px;
+    top: 0;
     position: absolute;
     border-radius: 50px;
   }
