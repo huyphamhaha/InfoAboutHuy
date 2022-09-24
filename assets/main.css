@@ -182,4 +182,33 @@ svg {
   margin-top: -2px;
 }
 
+.info-mini {
+  margin: auto;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 4px 12px;
+  padding: 12px;
+  transition: ease 0.3s ;
 
+}
+.info-mini:hover {
+  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.info-img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+
+.infomation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
