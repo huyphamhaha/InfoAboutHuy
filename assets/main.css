@@ -212,3 +212,15 @@ svg {
   justify-content: center;
   align-items: center;
 }
+
+.final1 {
+  width: full width;
+  margin-top: 20px;
+  padding: 50px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c23564;
+  border-radius: 5px;
+}
