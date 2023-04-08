@@ -35,8 +35,8 @@
   .img-css {
     width: 300px;
     top: 0;
-    position: absolute;
-    border-radius: 50px;
+    border-radius: 1000px;
+    display: block;
   }
 
   .tab-item {
@@ -55,21 +55,23 @@
     justify-content: center;
   }
   
-  .img-css {
-    display: none;
-  }
 }
 
 @media (max-width: 739px) {
     
-    .img-css {
-        display: none;
-      }
 
     .logo {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
+    }
+
+    .tab-pane h2 {
+        display: block;
+    }
+
+    .hi2 {
+        display: none;
     }
     
 }
